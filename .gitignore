@@ -1,0 +1,12 @@
+.dotcloud/*
+backups/*
+.python-eggs/*
+cabot.egg-info
+cabot/static/CACHE
+.env
+.DS_Store
+*.pyc
+*.swp
+*.orig
+.vagrant
+dist/
