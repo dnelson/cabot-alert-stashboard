@@ -6,6 +6,7 @@ This plugin allows you to send alerts to Stashboard. It needs OAuth credentials
 Installation
 ----
 1. Add cabot_alert_stashboard to the CABOT_PLUGINS_ENABLED list in *\<environment\>*.env
+1. Add `requests_oauthlib` to the install_requires section of the cabot `setup.py`
 1. Add `STASHBOARD_TOKEN=<YOUR_OAUTH_TOKEN>` to *\<environment\>*.env
 1. Add `STASHBOARD_SECRET=<YOUR_OAUTH_SECRET>` to *\<environment\>*.env
 1. Add `STASHBOARD_URI=<YOUR_STASHBOARD_DOMAIN>` to *\<environment\>*.env
